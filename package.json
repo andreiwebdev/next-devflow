@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
     "next": "15.1.7",
+    "next-themes": "^0.4.4",
+    "prettier": "^3.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/compat": "^1.2.6",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.20.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -25,5 +31,11 @@
     "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5"
+  },
+  "packageManager": "npm@11.0.0",
+  "overrides": {
+    "eslint": "$eslint",
+    "@eslint/eslintrc": "$@eslint/eslintrc",
+    "eslint-config-next": "$eslint-config-next"
   }
 }
