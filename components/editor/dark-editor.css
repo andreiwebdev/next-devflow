@@ -1,7 +1,7 @@
 @import url("@radix-ui/colors/tomato-dark.css");
 @import url("@radix-ui/colors/mauve-dark.css");
 
-.dark-editor {
+.dark .dark-editor {
   --accentBase: var(--tomato-1);
   --accentBgSubtle: var(--tomato-2);
   --accentBg: var(--tomato-3);
@@ -17,7 +17,7 @@
 
   --baseBase: var(--mauve-1);
   --baseBgSubtle: var(--mauve-2);
-  --baseBg: var(--mauve-3);
+  --baseBg: #151821;
   --baseBgHover: var(--mauve-4);
   --baseBgActive: var(--mauve-5);
   --baseLine: var(--mauve-6);
